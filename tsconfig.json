@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "types": [
+      "jest",
+      "node",
+      "react",
+      "react-dom"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "downlevelIteration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "typeAcquisition": {
+    "enable": true,
+    "include": ["jest"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*",
+    "./dist/**/*"
+  ]
+}
